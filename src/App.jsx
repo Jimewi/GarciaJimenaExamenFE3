@@ -1,19 +1,18 @@
+import { useState } from 'react'
 import './App.css'
-import Card from './Components/Card'
+import Card from './Components/CardComponent'
+import Form from './Components/Form'
 
 function App() {
-  
-  return (
-    <>
-      <div className='App'>
-        <h1>Carga de estudiantes</h1>
-        <form></form>
-          <Card />
-        <h1>Éxitos!</h1>
 
-      </div>
-    </>
-  )
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Formulario y Componente</h1>
+        <FormComponent />
+      </header>
+    </div>
+  );
 }
 
 export default App
